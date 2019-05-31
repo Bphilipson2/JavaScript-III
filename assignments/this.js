@@ -12,24 +12,24 @@
 // Principle 1
 
 // code example for Window Binding
-//function sayName(city) {
-  //  console.log(city);
-  //}
-  //sayName("New York");
+function sayName(city) {
+    console.log(city);
+  }
+  sayName("New York");
 
 
 // Principle 2
 
 // code example for Implicit Binding
-//const fullName = {
-//    name: 'Bradley',
-//    sayLast: function(name) {
-//        console.log(`${this.name} my last name is ${name}`);
-//        console.log(this); 
-//    }
-//};
+const fullName = {
+    name: 'Bradley',
+    sayLast: function(name) {
+        console.log(`${this.name} my last name is ${name}`);
+        console.log(this); 
+    }
+};
 
-//fullName.sayLast('Philipson');
+fullName.sayLast('Philipson');
 
 // Principle 3
 
